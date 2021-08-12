@@ -1,0 +1,13 @@
+{
+	"name": "Web API wrapper for queued process",
+	"version": "1.0.0",
+	"description": "Web interface to query a long system process in a queue and make easy to explore with interactive tools e.g Observable.",
+	"author": "Fabien Benetou <fabien@benetou.fr>",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.1"
+	}
+}

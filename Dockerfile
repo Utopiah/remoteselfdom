@@ -25,7 +25,7 @@ RUN mv selfdom-master selfdom
 WORKDIR /usr/src/bot/selfdom
 RUN bash install.sh
 
-wORKDIR /usr/src/bot/selfdom/exp_prosoc/
+WORKDIR /usr/src/bot/selfdom/exp_prosoc/
 ENV LD_LIBRARY_PATH=/usr/local/lib/argos3/
 #example of running a simulation
 #RUN cd /usr/src/bot/selfdom/exp_prosoc/ && ./runExpBatch.sh 1000 0.9
